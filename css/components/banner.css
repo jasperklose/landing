@@ -1,0 +1,14 @@
+.banner {
+  display: flex;
+  color: #fff;
+  background-size: cover;
+  background-position: 50% 60%;
+  padding: 200px 0px;
+}
+
+
+@media(max-width: 900px) {
+  .banner {
+    padding: 100px 0px;
+  }
+}

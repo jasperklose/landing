@@ -1,0 +1,39 @@
+.how-it-works {
+  padding: 65px 0px;
+}
+
+.cards-title {
+  text-align: center;
+  margin-bottom: 35px;
+}
+
+.cards {
+  gap: 75px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.card {
+  border: 1px solid #e4e4e4;
+  padding: 25px;
+  box-shadow: 0px 5px 20px rgba(50,50,50,.15);
+  text-align: center;
+  border-radius: 3px;
+}
+
+.card img {
+  width: 75%;
+  margin-bottom: 35px;
+}
+
+@media(max-width: 900px) {
+  .cards {
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 30px;
+  }
+
+  .card img {
+    width: 50%;
+  }
+}
